@@ -12,7 +12,7 @@ function hitungLuas() {
     return;
   }
   const luas = 0.5 * alas * tinggi;
-  document.getElementById("hasilLuas").innerText = `L = 1/2 x ${alas} x ${tinggi} = ${luas}```;
+  document.getElementById("hasilLuas").innerText = `L = 1/2 x ${alas} x ${tinggi} = ${luas}`;
 }
 
 function resetLuas() {
